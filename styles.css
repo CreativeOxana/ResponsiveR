@@ -29,7 +29,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -42,7 +42,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -60,7 +60,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -159,6 +159,7 @@ footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
+  text-align: center;
 }
 
 footer .email-link:hover {
@@ -166,7 +167,7 @@ footer .email-link:hover {
 }
 
 footer .social-links {
-  margin: 20px;
+  margin: 0 20px;
   color: var(--branding-color);
   background-color: var(--secondary-color);
   padding: 10px 14px;
@@ -190,12 +191,8 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
-  h4 {
+  h3 {
     font-size: 24px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .content {
@@ -208,4 +205,3 @@ footer .social-links a:hover {
     text-align: center;
   }
 }
-
